@@ -1,0 +1,103 @@
+.banner{
+    position: relative;
+    background-image: url(/img/banner-bg.png);height: 120vh;background-position: center;background-size: cover;;
+    overflow-y: hidden;
+    .overlay{
+     background-color: #CE6D28;
+    }
+    .container{
+        .banner-info{
+            h1{
+                color: #CE6D28;text-transform: capitalize;font-size: 35px;font-weight: bolder;text-align: center;padding-top: 40px;
+                strong{color: #313492;}
+            }
+            p{
+                color: #fff;font-size: 18px;text-shadow: 2px 3px 3px #000;padding-bottom: 20px;
+            }
+            .accordion{
+                .accordion-item{
+                    margin-bottom: 10px;
+                    h2{
+                        font-size: 30px !important;font-weight: bold;
+                    }
+
+                    .subscribe{
+                        background-color: #313492;border: none;border-radius: 3px;
+                        padding: 5px 35px 5px 35px;color: #fff;
+                    }
+                }
+                #subscribe{
+                    padding: 5px 0 5px 0;text-align: center;
+                }
+            }
+        }
+        .banner-img{
+            position: relative;width: 90%;height: 350px;margin: 0 auto;
+            img{
+                width: 100%;height: 100%;object-fit: cover;
+            }
+            .overlay{
+                position: absolute;
+                background-color: #000;width: 100%;height: 100%;top: 0;left: 0%;opacity: .5;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:768px){
+    .banner{
+        height: 50vh;
+     
+        .container{
+            display: flex;
+            .banner-info{
+                width: 60%;
+                h1{
+                  text-align: left;
+                }
+            
+            }
+
+            .banner-img{
+               width: 35%;height: 350px;margin-top: 70px;
+               box-shadow: 13px 14px 2px #fff;
+                img{
+                    object-fit: cover;
+                }
+           
+            }
+        }
+    }
+
+}
+
+
+@media screen and (min-width:992px){
+    .banner{
+        height: 80vh;
+     
+        .container{
+            display: flex;
+            .banner-info{
+                width: 50%;padding-top: 80px;
+                h1{
+                  font-size: 75px;
+                }
+            
+                .accordion{
+                    display: flex;
+                    .accordion-item{
+                        width: 600px !important;
+                    }
+                }
+            }
+
+            .banner-img{
+               width: 30%;height: 550px;margin-top: 70px;
+                   
+            }
+        }
+    }
+
+}

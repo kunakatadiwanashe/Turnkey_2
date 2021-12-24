@@ -1,0 +1,38 @@
+.seeus{
+    padding: 2em 0 5em 0;line-height: 1.5 ;
+    .container{
+        h2{
+            font-size: 70px;font-weight: bolder;color: #CE6D28;padding-bottom: 30px;
+        }
+        .row{
+            .col-md-6{
+                .inner{
+                    width: 630px;height: 484px;position: relative;
+                    img{
+                        position: absolute;width: 30%;height: 70vh;position: absolute;z-index: -1;
+                        right: -20px;top: -20px;
+                    }
+                    video{ 
+                     width: 100%;height: 100%; 
+                    }
+                }
+                .inner2{
+                    padding-top: 10em;padding-left: 40px;
+                  h3{
+                      font-size: 45px;font-weight: bolder;color: #313492;
+                      padding-bottom: 20px;
+                      span{
+                          display: block;
+                      }
+                  }
+                  p{
+                      font-size: 18px;color: #CE6D28;
+                      span{
+                          display: block;
+                      }
+                  }
+                }
+            }
+        }
+    }
+}
