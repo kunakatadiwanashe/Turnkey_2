@@ -4,6 +4,8 @@ $(document).on('ready', function() {
   $(".top-selling").slick({
     dots: false,
     infinite: true,
+    prevArrow: $('.prev'),
+    nextArrow: $('.next'),
     slidesToShow: 2,
    
     responsive: [

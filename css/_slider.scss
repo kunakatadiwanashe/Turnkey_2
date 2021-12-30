@@ -49,6 +49,12 @@
       }
       .arrows{
         display: flex;justify-content: space-between;width: 40%;position: absolute;right: 40px;bottom: 20px;
+        p{
+          font-size: 40px;color: #DBDBDB;
+          &:hover{
+            color: blue;
+          }
+        }
       }
     }
     .company-logo{

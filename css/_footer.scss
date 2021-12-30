@@ -1,7 +1,7 @@
 footer{
-    padding-top: 8em;background-color: #CE6D28;color: #fff;
+    padding-top: 8em;background-color: #CE6D28;color: #fff;text-align: center;
     .container{
-        padding-left: 90px;
+     
         .row{
             .col-md-4{
                 .inner{
@@ -47,3 +47,9 @@ footer{
         }
     }
 }
+
+// @media screen and(min-width:768px) {
+//     footer{
+//         text-align: left;
+//     }
+// }

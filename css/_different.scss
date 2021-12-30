@@ -1,7 +1,8 @@
 .different{
+    padding: 3em 0 3em 0;height: 120vh;
    
     h2{
-        color:#CE6D28;font-size: 70px;text-transform: capitalize;
+        color:#CE6D28;font-size: 35px;text-transform: capitalize;padding-bottom: 10px;
     }
     p{
         color: #CE6D28;font-size: 18px;
@@ -30,5 +31,19 @@
     }
     #right{
         width: 20%;margin-left: auto;position: absolute;right: 0;
+    }
+}
+
+@media screen and(min-width: 768px) {
+    .different{
+        height: 70vh;
+    }
+}
+
+
+
+@media screen and(min-width: 1024px) {
+    .different{
+        height: 80vh;
     }
 }
