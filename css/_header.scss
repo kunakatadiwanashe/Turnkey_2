@@ -72,7 +72,7 @@ a:hover {
         display: none;
     }
 	#desktop{
-		display: list-item;width: 60%;
+		display: list-item;width: 80%;
 		display: flex;
 		li{
 			padding: 5px 20px 5px 20px;
@@ -84,5 +84,12 @@ a:hover {
 			margin-left: 90px;padding: 10px 20px 10px 20px;border: none;background-color: #313492;
 			color: #ffffff;
 		}
+	}
+}
+
+
+@media  screen and (min-width:992px) {
+	#desktop{
+		width: 60%;
 	}
 }

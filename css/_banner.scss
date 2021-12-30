@@ -1,7 +1,7 @@
 .banner{
     position: relative;
     background-image: url(/img/banner-bg.png);height: 120vh;background-position: center;background-size: cover;;
-    overflow-y: hidden;
+    overflow-y: hidden;overflow-x: visible;
     .overlay{
      background-color: #CE6D28;
     }
@@ -36,6 +36,7 @@
             img{
                 width: 100%;height: 100%;object-fit: cover;
             }
+         
             .overlay{
                 position: absolute;
                 background-color: #000;width: 100%;height: 100%;top: 0;left: 0%;opacity: .5;
@@ -61,7 +62,7 @@
 
             .banner-img{
                width: 35%;height: 350px;margin-top: 70px;
-               box-shadow: 13px 14px 2px #fff;
+              
                 img{
                     object-fit: cover;
                 }
@@ -75,14 +76,19 @@
 
 @media screen and (min-width:992px){
     .banner{
-        height: 80vh;
+        height: 100vh;
      
         .container{
             display: flex;
             .banner-info{
-                width: 50%;padding-top: 80px;
+                width: 58%;padding-top: 80px;padding-left: 2em;z-index: 3;
+                position: absolute;
                 h1{
-                  font-size: 75px;
+                  font-size: 65px !important;
+                  padding-right: 50px;
+                }
+                p{
+                    padding:10px 0 50px 0;
                 }
             
                 .accordion{
@@ -94,7 +100,8 @@
             }
 
             .banner-img{
-               width: 30%;height: 550px;margin-top: 70px;
+               width: 30%;height: 550px;margin-top: 70px;margin-right: 8em;
+             
                    
             }
         }
